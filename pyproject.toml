@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llm-finetune-eval"
+version = "0.1.0"
+description = "Benchmark a fine-tuned model against your frontier-API baseline."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "MSC Labs" }]
+keywords = ["llm", "fine-tuning", "evaluation", "benchmark", "qlora"]
+dependencies = [
+    "pyyaml>=6.0",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0"]
+anthropic = ["anthropic>=0.40"]
+all = ["openai>=1.0", "anthropic>=0.40"]
+dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://msc-labs.vercel.app"
+Repository = "https://github.com/Msc-Company-Org/llm-finetune-eval"
+
+[project.scripts]
+finetune-eval = "finetune_eval.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/finetune_eval"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Eval artifacts
+report.md
+report.json
+*.report.md
+*.report.json
+
+# Data (don't commit client test sets)
+data/
+*.jsonl
+!**/example*.jsonl
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
