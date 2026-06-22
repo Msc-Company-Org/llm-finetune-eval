@@ -122,3 +122,13 @@ If you'd rather not run the whole pipeline yourself, we do it as a service. Free
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE).
+
+---
+
+## 🚀 Built by MSC Labs
+
+A public reference from **MSC Labs** — we fine-tune and ship custom LLMs (QLoRA/SFT) with managed inference, benchmarked against frontier-API baselines.
+
+**→ [Train your own model with MSC Labs](https://labs.msccompany.com.br/?utm_source=github&utm_medium=readme&utm_campaign=oss-authority-2026&utm_content=llm-finetune-eval)**
+
+⭐ *Star this repo if it helps — it keeps the reference models coming.*
