@@ -23,7 +23,7 @@ all = ["openai>=1.0", "anthropic>=0.40"]
 dev = ["pytest>=8.0"]
 
 [project.urls]
-Homepage = "https://msc-labs.vercel.app"
+Homepage = "https://msc-labs-ai.vercel.app"
 Repository = "https://github.com/Msc-Company-Org/llm-finetune-eval"
 
 [project.scripts]
