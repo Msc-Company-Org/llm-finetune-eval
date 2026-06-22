@@ -117,7 +117,7 @@ evaluation, deployment — and hand you the weights.
 
 If you'd rather not run the whole pipeline yourself, we do it as a service. Free
 30-min model audit: we'll tell you if fine-tuning is worth it for your task.
-→ https://msc-labs-ai.vercel.app/assessment
+→ https://labs.msccompany.com.br/assessment
 
 ## License
 
